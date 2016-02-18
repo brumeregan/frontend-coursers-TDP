@@ -1,0 +1,44 @@
+table{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 360px;	
+	height: 428px;
+	border-collapse: collapse;
+}
+
+tr:first-child,
+tr:last-child,
+tr:first-child > td,
+tr:last-child > td,
+tr td:first-child,
+tr td:last-child
+{
+	border: 0px;
+	border-color: #251304;
+	background: #251304;
+}
+
+td{
+	width: 20px;
+	height: 20px;
+	border: 8px solid black;
+}
+.white{
+	background: #fff;
+}
+.yellow{
+	background: #fff164;
+}
+.blue{
+	background: #084685;
+}
+.red{
+	background: #ff5d40;
+}
+.black{
+	background: #151515;
+}

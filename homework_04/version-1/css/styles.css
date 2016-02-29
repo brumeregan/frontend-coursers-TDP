@@ -170,26 +170,24 @@ h2{
 	text-align: center;
 }
 
-/* COLOMNS WITH EQUAL HEIGHT*/
+/* COLOMNS WITH EQUAL */
 
 .info{
+	position: relative;
+	overflow: hidden;
+	left: 79%;
 	width: 21%;
-	padding-bottom: 2000px;
-	margin-bottom: -2000px;
-	border-right: 1px solid #c7cacf;
 	float: left;
-	background: #edeef0;
 	font-size: 14px;
 }
 
 .news{
+	position: relative;
+	overflow: hidden;
+	left: 79%;
 	width: 21%;
-	padding-bottom: 2000px;
-	margin-bottom: -2000px;
-	border-left: 1px solid #c7cacf;
 	float: right;
-	background: #edeef0;
-	font-size: 14px;
+	font-size: 14px;	
 }
 
 .info ul,
@@ -204,11 +202,37 @@ h2{
 }
 
 .content{
+	position: relative;
+	overflow: hidden;
+	left: 75%;
 	width: 58%;
-	padding-bottom: 2000px;
-	margin: 0 auto -2000px;
 	float: left;
 	font-size: 14px;
+}
+
+.wrapper-left{
+	position: relative;
+	right: 58%;
+	width: 100%;
+	float: left; 
+	background: #edeef0;
+	border-right: 1px solid #c7cacf;
+}
+
+.wrapper-center{
+	position: relative;
+	right: 21%;
+	width: 100%;
+	float: left;
+	background: #fff;
+	border-right: 1px solid #c7cacf;
+}
+
+.wrapper-right{
+	width: 100%;
+	float: left;
+	background: #edeef0;
+	border-right: 1px solid #c7cacf;
 }
 
 /* FOOTER */

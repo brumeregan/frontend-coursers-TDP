@@ -7,11 +7,13 @@
 	/*typografy*/
 
 	h1{
+		color: #fefefe;
 		font-size: 60px;
 		letter-spacing: -0.5px;
 	}
 	
 	h2{
+		
 		font-size: 32px;
 	}
 
@@ -34,13 +36,14 @@
 		height: 846px;
 	}
 
+
 	.wrapper{
 		max-width: 960px;
 	}
 
-	/*nav{
+	nav{
 		padding-top: 68px;
-	}*/
+	}
 
 	.logo{
 		float: left;
@@ -50,11 +53,11 @@
 		float: right;
 	}
 
-	.menu-top .menu__item{
+	.menu-top li{
 		margin-left: 49px;
 	}
 
-	.first-screen{
+	header .first-screen{
 		margin-top: 151px;
 	}
 
@@ -86,15 +89,17 @@
 	}
 
 	header .dots{
+		
 		right: 18%;
 		top: 91%;
 		margin-right: 100px;
+
 	}
+
 
 	.arrow__item{
 		top: 50%;
 	}
-
 	.arrow-left{
 		left: 0%;
 	}
@@ -103,13 +108,17 @@
 		right: 0%;
 	}
 
+
 	/*SECOND SCREEN*/
 
 	.purple-block{
+		position: relative;
 		box-sizing: border-box;
 		height: 342px;
 		padding: 76px 0 30px;
+
 	}
+
 
 	.purple-block__item{
 		display: inline-block;
@@ -121,36 +130,28 @@
 		margin-right: 59px;
 	}
 
+
 	.purple-block__item p{
-		/*overflow: hidden;*/
+		overflow: hidden;
 		height: 114px;
 	}
 
+	
 	.white-block{
-		/*position: relative;*/
+		position: relative;
 		box-sizing: border-box;
 		height: 487px;
 		padding: 9% 0 4%;
 	}
 
 	.comment{
-		/*box-sizing: border-box;*/
+
+		box-sizing: border-box;
 		width: 44%;
 		float: left;
 		height: 271px;
 		padding: 3% 3.5%;
 		margin-left: 3%;
-	}
-
-	.comment:after{
-		content: '';
-		position: absolute;
-		top: 100%;
-		left: 85%;
-		display: block;
-		width: 20px;
-		height: 20px;
-		background: url(../img/comment-triangle.png) 0px 0px no-repeat;
 	}
 
 	.comment span{
@@ -164,7 +165,19 @@
 		transform: translateY(4%);
 	}
 
-	.aside{
+	.comment:after{
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 85%;
+		display: block;
+		width: 20px;
+		height: 20px;
+		background: url(../img/comment-triangle.png) 0px 0px no-repeat;
+
+	}
+
+	aside{
 		float: right;
 		width: 45%;
 		margin-right: 20px;
@@ -214,6 +227,8 @@
 	.story{
 		float: left;
 	}
+
+
 
 	.recent_comment{
 		float: right;

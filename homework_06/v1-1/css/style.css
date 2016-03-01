@@ -1,10 +1,5 @@
-@font-face {
-	font-family: "Lucida Sans Unicode";
-	src:url('../font/Lucida Sans Unicode Regular.ttf');
-}
-
 body{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 a{
@@ -1015,7 +1010,7 @@ footer li{
 	vertical-align: middle;
 }
 
-/*pixel perfect*/
+/*again pixel perfect*/
 
 div.partners-logo > ul > li:nth-child(1){
 	margin-top: 5px;
@@ -1045,11 +1040,15 @@ div.partners-logo > ul > li:nth-child(8){
 	color: #bec6c9;
 	font-size: 12px;
 	letter-spacing: 0.3px;
-	padding: 10px 0rem 10px 10px;
 }
 
 .footer-bg li a:hover{
 	color: #52abcb;
+}
+
+.footer-bg ul li a,
+.footer-bg ul li span{
+	position: relative;
 }
 
 .footer-bg li > span{
@@ -1057,13 +1056,38 @@ div.partners-logo > ul > li:nth-child(8){
 	width: 1px;
 	height: 11px;
 	margin-top: 4px;
-	margin-left: 10px;
 	border-right: 1px solid white;
 	vertical-align: middle;
 }
 
 .footer-bg li:last-child a:after{
 	border-right: none;
+}
+
+/*and again shaman dances around pixel perfect*/
+div.footer-bg > ul > li:nth-child(1) > a{
+	right: 20px;
+	top: 0px;
+}
+
+div.footer-bg > ul > li:nth-child(2) > span{
+	right: 15px;
+}
+
+div.footer-bg > ul > li:nth-child(3) > a{;
+	right: 6px;
+}
+
+div.footer-bg > ul > li:nth-child(5) > a{
+	left: 8px;
+}
+
+body > footer > div.footer-bg > ul > li:nth-child(6) > span{
+	left: 15px;
+}
+
+div.footer-bg > ul > li:nth-child(7) > a{
+	left: 26px;
 }
 
 .copyright{
@@ -1117,5 +1141,8 @@ div.partners-logo > ul > li:nth-child(8){
 }
 
 .checkbox-custom:focus + label {
-  outline: 1px solid #ddd; 
+  outline: 1px solid #ddd; /* focus style */
 }
+
+
+

@@ -62,10 +62,10 @@ a{
 	width: 100%;
 	height: 846px;
 	padding-top: 30px; 
-	background-image: url("../img/bg-high.jpg");
+	background-image: url("../img/bg-ie.jpg");
 	background-repeat: no-repeat;
-	background-position: 50%; 
-	background-size: cover; 
+	background-position: 50%;
+	background-size: cover;
 }
 
  .logo{
@@ -154,7 +154,7 @@ a{
 	}
 
 	.arrow-left{
-		left: -5%;`
+		left: -5%;
 	}
 
 	.arrow-right{
@@ -262,7 +262,7 @@ a{
 	}
 
 	.comment .article__p{
-		height: 160px;
+		height: 163px;
 		margin-top: 10px;
 	}
 
@@ -366,10 +366,6 @@ a{
 		text-shadow: 1px 1px #fff;
 	}
  
-	.story p{
-		height: ;
-	}
-
 	.category{
 		margin-bottom: 53px;
 	}

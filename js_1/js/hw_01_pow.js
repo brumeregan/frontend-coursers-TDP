@@ -1,3 +1,5 @@
+'use strict';
+
 pow();
 
 function pow(base, exponent) {

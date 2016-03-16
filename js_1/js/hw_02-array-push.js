@@ -10,18 +10,17 @@ function auth(){
 
 	var user = prompt("Enter username");
 
-	if ( isAdmin(array, user) ){
+	isAdmin = false;
+
+	for (var i = 0; i < array.length; i++){
+		if(user.toUpperCase() == array[i].toUpperCase()){
+			isAdmin = true;
+		}
+	}
+
+	if(isAdmin){
 		return alert(user + ", Вы успешно вошли в систему!");
 	}
 
 	return alert("!Error!");
-}
-
-function isAdmin(array, user){
-	for (var i = 0; i < array.length; i++){
-		if(user.toUpperCase() == array[i].toUpperCase()){
-			return true;
-		}
-	}
-	return false;
 }

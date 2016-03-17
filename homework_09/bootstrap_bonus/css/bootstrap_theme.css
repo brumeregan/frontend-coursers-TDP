@@ -1,0 +1,76 @@
+/*типографика*/
+
+h1{
+	font-size: 48px;
+}
+
+h2{
+	;
+}
+
+h3{
+	;
+}
+
+.navbar-default{
+	background: transparent;
+	border: 0px;
+}
+
+.navbar-default .navbar-toggle{
+	border: 0px;
+	background: transparent;
+	float: none;
+	color: #fff;
+	font-size: 24px;
+}
+
+.navbar-header .col-sm-12{
+	;
+}
+
+.navbar-brand{
+	height: auto;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+	background: transparent;
+}
+
+.navbar-collapse{
+	position: relative;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	z-index: 50;
+}
+
+
+.carousel-control.right,
+.carousel-control.left{
+	background-image: none;
+}
+
+
+/*custom move*/
+
+#header__carousel{
+	height: 360px;
+	z-index: 10;
+}
+
+#comment__carousel{
+	height: 350px;
+}
+
+#comment__carousel .carousel-control{
+	display: none;
+}

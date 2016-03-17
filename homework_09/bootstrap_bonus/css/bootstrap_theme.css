@@ -19,6 +19,9 @@ h3{
 
 .navbar-default .navbar-toggle{
 	border: 0px;
+	border-bottom: 2px solid #edbfff;
+	border-radius: 0px;
+	padding: 3px 10px;
 	background: transparent;
 	float: none;
 	color: #fff;
@@ -63,7 +66,7 @@ h3{
 /*custom move*/
 
 #header__carousel{
-	height: 360px;
+	height: 250px;
 	z-index: 10;
 }
 

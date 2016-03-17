@@ -21,7 +21,7 @@
 
 body{
 	color: #454545;
-	background: #eee;
+	background: #f9f9f9;
 	font-family: "League Gothic", sans-serif;
 }
 
@@ -101,6 +101,9 @@ a:hover{
 	box-sizing: border-box;
 	padding-top: 50px;
 	padding-bottom: 60px;
+	border-top: 1px solid #33253a;
+	border-bottom: 1px solid #0d151b;
+
 	background: -webkit-linear-gradient(#745083, #322539);
 	background: -o-linear-gradient(#745083, #322539);
   background: -moz-linear-gradient(#745083, #322539); 
@@ -256,6 +259,9 @@ a:hover{
 .partner{
 	padding-top: 27px;
 	padding-bottom: 27px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	
 }
 
 .partner__item{

@@ -14,7 +14,7 @@
 
 	.head-article{
 		width: 80%;
-		margin: 40% auto 0;
+		margin: 20% auto 0;
 	}
 
 	.navbar-collapse{
@@ -45,6 +45,15 @@
 		/*background: rgb(54, 41, 62);*/
 		background: rgba(54, 41, 62, 0.9);
 		text-align: center;
+	}
+
+	.menu__header .menu__item{
+		border-top: 1px solid #624b6c;
+		border-bottom: 1px solid #36283e;
+	}
+
+	.menu__header .menu__item:hover{
+		#background: rgba(51, 51, 51, 0.7);
 	}
 
 	.menu > .menu__item:nth-child(1) > .menu__link{

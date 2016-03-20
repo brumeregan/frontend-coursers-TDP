@@ -4,6 +4,10 @@
 		height: 516px;
 	}
 
+	#header__carousel{
+		height: 250px;
+	}
+
 	.carousel-control .glyphicon-chevron-left{
 		margin-left: -20px;
 	}
@@ -53,7 +57,7 @@
 	}
 
 	.menu__header .menu__item:hover{
-		#background: rgba(51, 51, 51, 0.7);
+		background: rgba(51, 51, 51, 0.7);
 	}
 
 	.menu > .menu__item:nth-child(1) > .menu__link{

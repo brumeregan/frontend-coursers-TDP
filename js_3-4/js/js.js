@@ -30,11 +30,10 @@ var generateHtml = {
 
 	createBoxes: function(){
 		var keyId = 1;
-		var row = document.createElement("div");
-		row.classList.add("col-lg-6", "col-lg-offset-3");
+		var col = document.createElement("div");
+		col.classList.add("col-lg-6", "col-lg-offset-3");
 		
-
-		for (var key in this.questions ){
+		for (var key in this.questions){
 			var questionBox = document.createElement('div');
 			var questionElem = document.createElement('h3');
 			questionElem.classList.add('question');
@@ -64,10 +63,10 @@ var generateHtml = {
 			
 			keyId++;
 			questionBox.appendChild(document.createElement("hr"));
-			row.appendChild(questionBox);
+			col.appendChild(questionBox);
 			
 		}
-		return row;
+		return col;
 	},
 
 	createButton: function(){
@@ -76,6 +75,6 @@ var generateHtml = {
 		button.innerHTML = "Проверить мои результаты";
 		return button;
 	}
-}
+};
 
 generateHtml.generate();

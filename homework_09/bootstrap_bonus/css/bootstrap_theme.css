@@ -9,7 +9,8 @@ h2{
 }
 
 h3{
-	;
+	margin-top: 0;
+	margin-bottom: 1px;
 }
 
 .navbar-default{
@@ -17,13 +18,20 @@ h3{
 	border: 0px;
 }
 
+.navbar-brand{
+	padding-top: 0;
+
+}
+
 .navbar-default .navbar-toggle{
 	border: 0px;
 	border-bottom: 2px solid #edbfff;
 	border-radius: 0px;
-	padding: 3px 10px;
+	padding: 0px 10px;
+	margin-top: 16px;
 	background: transparent;
 	float: none;
+	text-transform: uppercase;
 	color: #fff;
 	font-size: 24px;
 }
@@ -60,10 +68,29 @@ h3{
 .carousel-control.right,
 .carousel-control.left{
 	background-image: none;
+	font-size: 40px;
 }
 
+.carousel-indicators{
+	margin-bottom: 0;
+}
 
-/*custom move*/
+.carousel-indicators .carousel-indicators__item{
+	box-sizing: border-box;
+	width: 15px;
+	height: 15px;
+	border-color: rgba(0, 0, 0, 0.5);
+	border-width: 0px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-indicators__item.active{
+	margin: 1px;
+	border-width: 2px;
+
+	background: rgba(255, 255, 255, 0.7);
+
+}
 
 #header__carousel{
 	height: 450px;

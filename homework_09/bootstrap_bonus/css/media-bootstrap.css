@@ -5,29 +5,40 @@
 	}
 
 	#header__carousel{
-		height: 250px;
+		height: 260px;
+	}
+
+	.carousel-control{
+		;
 	}
 
 	.carousel-control .glyphicon-chevron-left{
-		margin-left: -20px;
+		top: 43%;
+		margin-left: 0px;
 	}
 
 	.carousel-control .glyphicon-chevron-right{
-		margin-right: -20px;
+		top: 43%;
+		margin-right: 0px;
 	}
 
 	.head-article{
-		width: 80%;
-		margin: 20% auto 0;
+		width: 54%;
+		margin: 25% auto 0;
+	}
+
+	.head-article__subheader{
+		height: 19px;
 	}
 
 	.navbar-collapse{
 		position: absolute;
-		top: 67px;
+		top: 54px;
 		left: 50%;
-		/*transform: translate(-50%, 0);*/
+		
 		margin-left: -122px;
 		border-top: 0px;
+		/*text-transform: uppercase;*/
 	}
 
 	.navbar-toggle{
@@ -46,6 +57,7 @@
 
 	.menu__header{
 		width: 245px;
+		border-radius: 7px;
 		/*background: rgb(54, 41, 62);*/
 		background: rgba(54, 41, 62, 0.9);
 		text-align: center;
@@ -56,6 +68,14 @@
 		border-bottom: 1px solid #36283e;
 	}
 
+	.menu__header .menu__item:first-child{
+		border-radius: 7px 7px 0px 0px
+	}
+
+	.menu__header .menu__item:last-child{
+		border-radius: 0px 0px 7px 7px
+	}
+
 	.menu__header .menu__item:hover{
 		background: rgba(51, 51, 51, 0.7);
 	}
@@ -64,13 +84,80 @@
 		opacity: 0;
 	}
 
+	.about-block{
+		padding-top: 68px;
+	}
+
+	.about-block__item{
+		width: 71%;
+		margin: 0 14%;
+	}
+
+	.about-block__item.music{
+		margin-top: 19px;
+	}
+
+	.about-block__item.speak{
+		margin-top: 33px;
+	}
+
 	.about-block__p {
 		height: 70px;
 	}
+	
+	.white-block{
+		padding-bottom: 85px;
+	}
+
+	#comment__carousel{
+		height: 360px;
+	}
 
 	.comment__p{
-		height: 160px;
+		height: 165px;
 	}
+
+	.aside{
+		width: 90%;
+		margin: 0 13%;
+	}
+
+	.aside__list{
+		padding-left: 0;
+	}
+
+	.aside__subheader{
+		width: 50%;
+	}
+
+	.aside__p{
+		width: 65%;
+	}
+
+	.aside .readmore{
+		margin-top: 0;
+		margin-right: 79px;
+	}
+
+	.partner{
+		padding-top: 22px;
+		padding-bottom: 39px;
+	}
+
+	/*.partner__img{
+		margin: 30px 20px;
+	}*/
+
+	.partner__item{
+		height: 120px;
+		line-height: 120px;
+	}
+
+	.partner__item:nth-child(2n + 1) img{
+		padding-left: 50%;
+	}
+
+	
 
 }
 

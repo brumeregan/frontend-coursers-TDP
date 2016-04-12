@@ -220,12 +220,15 @@ nav li.sum > a{
 	padding: 0px 5px;
 	text-transform: lowercase;
 }
-nav li.basket{
-	padding-left: 24px;
-	background: url("../img/icon-bascket.png") left 4px no-repeat;
+
+.icon-basket{
+	vertical-align: middle;
+	margin-left: -6px;
+	margin-right: 6px;
 }
 
 .basket-link{
+
 	position: relative;
 	top: -2px;
 	letter-spacing: 0.5px;
@@ -662,7 +665,6 @@ body > form > fieldset.disk-search > div.diametr > label:nth-child(3) > select{
 	top: -11px;
 	width: 58px;
 	height: 17px;
-
 }
 
 .dco{
@@ -890,7 +892,7 @@ main .goods{
 	width: 485px;
 	margin: 0 auto;
 	padding: 15px 21px 28px;
-	background: #9dafb7;
+	background: #c6cfd3;
 	border-radius: 4px;
 	font-family: "Lucida Sans Unicode", sans-serif;
 }
@@ -919,17 +921,23 @@ main .row article:last-child{
 }
 
 .firm{
-	color: #206988;
 	text-align: center;
 	font-size: 15px;
 	letter-spacing: 0.21px;
 }
 
+.firm a{
+	color: #206988;
+}
+
 .mark{
 	margin-left: 5px;
-	color: #1f2528;
 	text-align: center;
 	font-size: 13px;
+}
+
+.mark a{
+	color: #1f2528;
 }
 
 .price{
@@ -976,7 +984,10 @@ main div.row:nth-child(3){
 	letter-spacing: 0.01px;
 }
 
-article figure{
+article figure,
+article .figure
+{
+	display: block;
 	position: relative;
 	height: 127px;
 	width: 137px;
@@ -985,6 +996,7 @@ article figure{
 	background: #fff;
 }
 
+.figure img,
 figure img{
 	position: absolute;
 	top: -1px;
